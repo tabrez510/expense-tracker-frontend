@@ -9,7 +9,7 @@ form.addEventListener('submit', async (e) => {
     }
 
     try{
-        const response =await axios.post('http://localhost:3000/api/password/forgotpassword', userDetails);
+        const response =await axios.post('https://expense-tracker-backend-uy9q.onrender.com/api/password/forgotpassword', userDetails);
         if(response.status == 202){
             alert('password changed');
         }

@@ -1,4 +1,4 @@
-const baseURL = 'http://localhost:3000/api';
+const baseURL = 'https://expense-tracker-backend-uy9q.onrender.com/api';
 const signupBtn = document.getElementById('signupBtn');
 const form = document.querySelector('form');
 

@@ -1,4 +1,4 @@
-const baseURL = 'http://localhost:3000/api';
+const baseURL = 'https://expense-tracker-backend-uy9q.onrender.com/api';
 
 function validate () {
     const amount = document.getElementById('amount').value;
